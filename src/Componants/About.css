@@ -1,0 +1,10 @@
+
+.slider-item {
+    padding: 10px; 
+    border: 2px solid white; 
+  }
+  
+.slider-img {
+    width: 100%; 
+    height: auto; 
+  }

@@ -7,7 +7,7 @@ import './Navbar.css'
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-dark p-3 py-3 pt-2border border-bottom border-primary">
+    <Navbar expand="lg" className=" p-3 py-3 pt-2"style={{backgroundColor:"black"}}>
       <Container fluid>
         <Navbar.Brand href="#home">
           <img src={logo} alt="" style={{ height: '4rem', width: '4rem' }} />
@@ -18,7 +18,9 @@ function BasicExample() {
           <Nav className="me-auto" style={{ marginLeft: 'auto' }}>
             <Link className='nav nav1 active text-white fw-bold text-decoration-none ms-4 ' style={{ marginLeft: '1rem' }} to="/">HOME</Link>
             <Link className='nav text-white fw-bold text-decoration-none ms-4' to="/about">ABOUT US</Link>
+            <Link className='nav text-white fw-bold text-decoration-none ms-4 ' to="/services">SERVICES</Link>
             <Link className='nav text-white fw-bold text-decoration-none ms-4 ' to="/contact">CONTACT</Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
